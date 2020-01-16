@@ -9,5 +9,6 @@ public class Application {
         HelloMom obj = (HelloMom) context.getBean("helloWorld");
         obj.printMessage();
         System.out.println("Hello World");
+        System.out.println("HELLO AGAIN");
     }
 }
